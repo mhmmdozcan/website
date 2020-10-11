@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.topbar{
+    text-align: center;
+}
+header{
+    height: 80px;
+    background: blueviolet;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#fff;
+    letter-spacing: 5px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+    padding-right: 5%;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.banner-area{
+    width: 100%;
+    height: 800px;
+    position: fixed;
+    top: 100px;
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area h2{
+    padding: 1% 15%;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color:black;
+}
